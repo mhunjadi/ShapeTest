@@ -89,7 +89,6 @@ def main():
             print("Point X is inside the cuboid ABCD." if shape.is_inside(coordinates[-1]) else "Point X is not inside the cuboid ABCD.")
 
         print("Diagonal length:", shape.diagonal_length())
-        print(3 * math.sqrt(11))
     except FileNotFoundError:
         print("File 'coordinates.txt' not found.")
     except ValueError as e:
