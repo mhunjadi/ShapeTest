@@ -1,6 +1,5 @@
 
 import math
-from itertools import combinations
 
 class Shape:
     def __init__(self, points):
